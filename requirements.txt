@@ -1,3 +1,4 @@
+--prefer-binary
 fastapi==0.115.0
 uvicorn==0.30.6
 lightgbm==4.5.0
