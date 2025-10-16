@@ -4,8 +4,9 @@ import pandas as pd
 import joblib
 
 # Load model and features
-model = joblib.load("model/trained_model.pkl")
-feature_columns = joblib.load("model/feature_columns.pkl")
+model = joblib.load("trained_model.pkl")
+feature_columns = joblib.load("feature_columns.pkl")
+
 
 app = FastAPI(title="LightGBM Energy Prediction API")
 
